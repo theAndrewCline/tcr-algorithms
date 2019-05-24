@@ -10,6 +10,10 @@ function multiply (a, b) {
   return a * b
 }
 
+function divide (a, b) {
+  return a / b
+}
+
 test('add', () => {
   expect(add(1, 2)).toBe(3)
 })
@@ -23,5 +27,5 @@ test('multiply', () => {
 })
 
 test('divide', () => {
-  expect(true).toBe(true)
+  expect(divide(4, 2)).toBe(2)
 })
