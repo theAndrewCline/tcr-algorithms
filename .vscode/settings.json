@@ -1,0 +1,10 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "*.test.js",
+        "cmd": "npm run tcr"
+      }
+    ]
+  }
+}
