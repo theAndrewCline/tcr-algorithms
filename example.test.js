@@ -1,7 +1,7 @@
-function add () {
-  return true
+function add (a, b) {
+  return a + b
 }
 
 test('add', () => {
-  expect(add()).toBe(true)
+  expect(add(1, 2)).toBe(3)
 })
