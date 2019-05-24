@@ -3,7 +3,7 @@
     "commands": [
       {
         "match": ".*js",
-        // "cmd": "cd ${workspaceRoot} && npm run tcr"
+        "cmd": "cd ${workspaceRoot} && npm run tcr"
       }
     ]
   }
