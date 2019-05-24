@@ -21,6 +21,7 @@ test('subtract', () => {
 test('multiply', () => {
   expect(multiply(1, 2)).toBe(2)
 })
+
 test('divide', () => {
   expect(true).toBe(true)
 })
