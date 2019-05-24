@@ -1,0 +1,26 @@
+{
+  "name": "tcr-algorithms",
+  "version": "1.0.0",
+  "description": "tcr testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "commit": "git add -A; timestamp=$(date \"+%c\") && git commit -m \"TCR @ $timestamp\";",
+    "revert": "git reset --hard",
+    "tcr": "npm test && npm run commit || npm run revert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theAndrewCline/tcr-algorithms.git"
+  },
+  "keywords": [
+    "testing",
+    "tcr"
+  ],
+  "author": "Andrew Cline",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theAndrewCline/tcr-algorithms/issues"
+  },
+  "homepage": "https://github.com/theAndrewCline/tcr-algorithms#readme"
+}
