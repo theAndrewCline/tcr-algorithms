@@ -8,7 +8,7 @@ Basicly TCR works like this.
 2. Write a small piece of code to make it pass
 3. Run the TCR script
 
-If your tests pass they will be commited. :heavy_check_mark:
+If your tests pass they will be commited. :white_check_mark:
 
 If they fail, all the code you wrote will be deleted and you get to try again. :boom:
 
