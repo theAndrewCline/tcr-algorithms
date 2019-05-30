@@ -12,6 +12,8 @@ If your tests pass they will be commited. :heavy_check_mark:
 
 If they fail, all the code you wrote will be deleted and you get to try again. :boom:
 
+For more information, Kent Beck has a [YouTube Video](https://www.youtube.com/watch?v=ZrHBVTCbcE0) that explains the workflow.
+
 ## Getting Setup :rocket:
 
 You could simply download this repository, `npm install`, and start crushing it. 
